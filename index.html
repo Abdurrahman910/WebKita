@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WebKita — Website Profesional untuk UMKM</title>
+<meta name="description" content="Website profesional untuk UMKM, siap pakai dalam 1-3 hari. Sudah ada katalog, WhatsApp, dan pembayaran. Mulai Rp 99.000.">
+<meta name="theme-color" content="#04060c">
+<link rel="icon" type="image/png" href="./assets/logo-icon.png">
+<link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+<link href="https://api.fontshare.com/v2/css?f[]=clash-display@500,600,700&f[]=satoshi@400,500,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<!-- Latar global -->
+<div class="bg" aria-hidden="true">
+  <div class="bg-grid"></div>
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="noise"></div>
+</div>
+
+<!-- HEADER -->
+<header class="header" id="top">
+  <div class="header-inner glass">
+    <a href="#home" class="brand" aria-label="WebKita — beranda">
+      <img src="./assets/logo-icon.png" alt="" width="40" height="22">
+      <span>Web<b>Kita</b></span>
+    </a>
+    <nav class="nav" aria-label="Navigasi utama">
+      <a href="#home" class="active">Home</a>
+      <a href="#paket">Paket</a>
+      <a href="#cara-order">Cara Order</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+    <a href="#" class="btn btn-wa js-wa" data-msg="Halo WebKita, saya ingin konsultasi pembuatan website.">
+      <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.75-.86-2.02-.96-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.25-.46-2.38-1.47-.88-.79-1.47-1.76-1.64-2.05-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.08 1.75-.72 2-1.41.25-.69.25-1.29.17-1.41-.07-.12-.27-.2-.57-.35M12.05 21.5h-.01a9.4 9.4 0 0 1-4.8-1.32l-.34-.2-3.57.94.95-3.48-.22-.36a9.4 9.4 0 0 1-1.44-5.02c0-5.2 4.23-9.43 9.44-9.43a9.4 9.4 0 0 1 9.43 9.44c0 5.2-4.23 9.43-9.44 9.43m8.03-17.46A11.3 11.3 0 0 0 12.05.72C5.79.72.69 5.81.69 12.07c0 2 .52 3.95 1.52 5.67L.6 23.28l5.68-1.49a11.3 11.3 0 0 0 5.43 1.38h.01c6.26 0 11.35-5.09 11.36-11.35 0-3.03-1.18-5.89-3.32-8.03"/></svg>
+      <span>WhatsApp</span>
+    </a>
+    <button class="menu-btn" aria-label="Buka menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-nav glass" hidden>
+    <a href="#home">Home</a>
+    <a href="#paket">Paket</a>
+    <a href="#cara-order">Cara Order</a>
+    <a href="#kontak">Kontak</a>
+  </div>
+</header>
+
+<main>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <div class="pill glass reveal">
+        <span class="pill-dot"></span>
+        Dipercaya ratusan UMKM di seluruh Indonesia
+      </div>
+      <h1 class="reveal">Website Profesional<br>untuk <span class="grad">UMKM</span></h1>
+      <p class="lead reveal">Siap pakai dalam 1-3 hari. Sudah ada katalog, WhatsApp, dan pembayaran.</p>
+      <div class="hero-cta reveal">
+        <a href="#paket" class="btn btn-primary btn-lg">
+          Lihat Paket Harga
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <a href="#cara-order" class="btn btn-ghost btn-lg">Cara Order</a>
+      </div>
+      <ul class="hero-meta reveal">
+        <li><b>1–3</b><span>hari jadi</span></li>
+        <li><b>Rp 99rb</b><span>mulai dari</span></li>
+        <li><b>100%</b><span>mobile friendly</span></li>
+      </ul>
+    </div>
+
+    <!-- Mockup visual -->
+    <div class="hero-visual reveal" aria-hidden="true">
+      <div class="halo"></div>
+      <div class="mock glass">
+        <div class="mock-bar">
+          <i></i><i></i><i></i>
+          <div class="mock-url">tokokamu.webkita.id</div>
+        </div>
+        <div class="mock-body">
+          <div class="mock-hero">
+            <div>
+              <div class="mk-line w60"></div>
+              <div class="mk-line w40 dim"></div>
+            </div>
+            <div class="mk-badge">Katalog</div>
+          </div>
+          <div class="mock-products">
+            <div class="prod"><div class="prod-img p1"></div><div class="mk-line w70"></div><div class="prod-price">Rp 45.000</div></div>
+            <div class="prod"><div class="prod-img p2"></div><div class="mk-line w60"></div><div class="prod-price">Rp 72.000</div></div>
+            <div class="prod"><div class="prod-img p3"></div><div class="mk-line w50"></div><div class="prod-price">Rp 38.000</div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="float float-wa glass">
+        <div class="fw-ico wa">
+          <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.75-.86-2.02-.96-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.25-.46-2.38-1.47-.88-.79-1.47-1.76-1.64-2.05-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.08 1.75-.72 2-1.41.25-.69.25-1.29.17-1.41-.07-.12-.27-.2-.57-.35"/></svg>
+        </div>
+        <div>
+          <b>Pesanan baru masuk</b>
+          <span>"Kak, kopi susu 2 ya"</span>
+        </div>
+      </div>
+
+      <div class="float float-pay glass">
+        <div class="fw-ico pay">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+        </div>
+        <div>
+          <b>Pembayaran berhasil</b>
+          <span>QRIS · Rp 117.000</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="pricing" id="paket">
+  <div class="pricing-glow" aria-hidden="true"></div>
+  <div class="ghost-word" aria-hidden="true">Harga</div>
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow">Paket Harga</span>
+      <h2>Pilih paket yang pas<br>untuk usahamu</h2>
+      <p>Harga jujur, tanpa biaya tersembunyi. Semua paket sudah termasuk desain responsif dan siap online.</p>
+    </div>
+
+    <div class="plans">
+      <!-- Starter -->
+      <article class="plan glass">
+        <header>
+          <h3>Starter</h3>
+          <p class="plan-desc">Untuk usaha yang baru mulai tampil online.</p>
+        </header>
+        <div class="price"><small>Rp</small>99.000</div>
+        <p class="price-note">sekali bayar</p>
+        <div class="divider"></div>
+        <ul class="features">
+          <li>1 halaman landing page</li>
+          <li>Katalog hingga 10 produk</li>
+          <li>Tombol chat WhatsApp</li>
+          <li>Tampilan responsif di HP</li>
+          <li>Gratis subdomain webkita.id</li>
+          <li>Selesai 1–3 hari kerja</li>
+        </ul>
+        <button type="button" class="btn btn-glass btn-block js-order" data-plan="Starter" data-price="99000">Pesan Sekarang</button>
+      </article>
+
+      <!-- Bisnis (popular) -->
+      <article class="plan plan-popular glass">
+        <div class="popular-badge">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M12 2l2.9 6.9 7.1.6-5.4 4.7 1.6 7.1L12 17.6 5.8 21.3l1.6-7.1L2 9.5l7.1-.6z"/></svg>
+          Paling Populer
+        </div>
+        <header>
+          <h3>Bisnis</h3>
+          <p class="plan-desc">Untuk UMKM yang siap jualan dan terima pembayaran.</p>
+        </header>
+        <div class="price"><small>Rp</small>149.000</div>
+        <p class="price-note">sekali bayar</p>
+        <div class="divider"></div>
+        <ul class="features">
+          <li>Semua fitur Starter</li>
+          <li>Katalog hingga 30 produk</li>
+          <li>Pembayaran QRIS &amp; transfer bank</li>
+          <li>Integrasi Google Maps lokasi</li>
+          <li>Formulir kontak pelanggan</li>
+          <li>2x revisi desain</li>
+        </ul>
+        <button type="button" class="btn btn-primary btn-block js-order" data-plan="Bisnis" data-price="149000">Pesan Sekarang</button>
+      </article>
+
+      <!-- Pro -->
+      <article class="plan glass">
+        <header>
+          <h3>Pro</h3>
+          <p class="plan-desc">Untuk brand yang ingin tampil maksimal dan mudah dicari.</p>
+        </header>
+        <div class="price"><small>Rp</small>219.000</div>
+        <p class="price-note">sekali bayar</p>
+        <div class="divider"></div>
+        <ul class="features">
+          <li>Semua fitur Bisnis</li>
+          <li>Hingga 5 halaman website</li>
+          <li>Katalog produk tanpa batas</li>
+          <li>Optimasi SEO dasar Google</li>
+          <li>Revisi sepuasnya selama 7 hari</li>
+          <li>Dukungan prioritas</li>
+        </ul>
+        <button type="button" class="btn btn-glass btn-block js-order" data-plan="Pro" data-price="219000">Pesan Sekarang</button>
+      </article>
+    </div>
+
+    <p class="pricing-foot">Butuh fitur khusus? <a href="#" class="js-wa" data-msg="Halo WebKita, saya butuh website dengan fitur khusus.">Konsultasi gratis via WhatsApp</a></p>
+  </div>
+</section>
+
+<!-- KEUNGGULAN -->
+<section class="features-sec" id="keunggulan">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Keunggulan</span>
+      <h2>Kenapa UMKM memilih WebKita</h2>
+    </div>
+    <div class="adv-grid">
+      <div class="adv glass">
+        <div class="adv-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg></div>
+        <h3>Jadi dalam 1–3 hari</h3>
+        <p>Tidak perlu menunggu berminggu-minggu. Website langsung siap dipakai jualan.</p>
+      </div>
+      <div class="adv glass">
+        <div class="adv-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.6A8.4 8.4 0 1 1 21 11.5z"/></svg></div>
+        <h3>Terhubung WhatsApp</h3>
+        <p>Pelanggan bisa langsung chat dan pesan dari setiap halaman produk.</p>
+      </div>
+      <div class="adv glass">
+        <div class="adv-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20M6 15h4"/></svg></div>
+        <h3>Pembayaran mudah</h3>
+        <p>Terima QRIS dan transfer bank, cocok untuk semua pelanggan.</p>
+      </div>
+      <div class="adv glass">
+        <div class="adv-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M11 18h2"/></svg></div>
+        <h3>Ramah di HP</h3>
+        <p>Tampil rapi dan cepat di semua ukuran layar, dari HP hingga laptop.</p>
+      </div>
+      <div class="adv glass">
+        <div class="adv-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></div>
+        <h3>Aman &amp; terpercaya</h3>
+        <p>Dilengkapi SSL (https) sehingga pelanggan merasa aman berbelanja.</p>
+      </div>
+      <div class="adv glass">
+        <div class="adv-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14a8 8 0 0 1 16 0"/><path d="M4 14v3a2 2 0 0 0 2 2h1v-6H6a2 2 0 0 0-2 2zM20 14v3a2 2 0 0 1-2 2h-1v-6h1a2 2 0 0 1 2 2z"/></svg></div>
+        <h3>Dibantu sampai online</h3>
+        <p>Tim kami siap membantu dari awal pemesanan hingga website aktif.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CARA ORDER -->
+<section class="steps-sec" id="cara-order">
+  <div class="steps-glow" aria-hidden="true"></div>
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow">Cara Order</span>
+      <h2>4 langkah mudah,<br>website langsung jadi</h2>
+    </div>
+    <ol class="steps">
+      <li class="step glass">
+        <span class="step-num">01</span>
+        <h3>Pilih paket</h3>
+        <p>Tentukan paket Starter, Bisnis, atau Pro sesuai kebutuhan usahamu.</p>
+      </li>
+      <li class="step glass">
+        <span class="step-num">02</span>
+        <h3>Isi data pesanan</h3>
+        <p>Klik "Pesan Sekarang", isi data usahamu, lalu konfirmasi pesanan.</p>
+      </li>
+      <li class="step glass">
+        <span class="step-num">03</span>
+        <h3>Lakukan pembayaran</h3>
+        <p>Scan QRIS dari aplikasi bank atau e-wallet apa pun, lalu klik Lanjutkan.</p>
+      </li>
+      <li class="step glass">
+        <span class="step-num">04</span>
+        <h3>Website online</h3>
+        <p>Kirim bukti bayar via WhatsApp. Dalam 1–3 hari website siap online.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-sec">
+  <div class="container">
+    <div class="cta glass">
+      <div class="cta-glow" aria-hidden="true"></div>
+      <h2>Siap bawa usahamu online?</h2>
+      <p>Konsultasi gratis, tanpa komitmen. Kami bantu pilihkan paket yang paling cocok.</p>
+      <a href="#" class="btn btn-primary btn-lg js-wa" data-msg="Halo WebKita, saya ingin konsultasi gratis.">Konsultasi Gratis via WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer" id="kontak">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="brand">
+          <img src="./assets/logo-icon.png" alt="" width="40" height="22">
+          <span>Web<b>Kita</b></span>
+        </a>
+        <p>Website profesional untuk UMKM. Cepat, terjangkau, dan siap jualan.</p>
+      </div>
+      <div>
+        <h4>Navigasi</h4>
+        <a href="#home">Home</a>
+        <a href="#paket">Paket</a>
+        <a href="#cara-order">Cara Order</a>
+        <a href="#keunggulan">Keunggulan</a>
+      </div>
+      <div>
+        <h4>Paket</h4>
+        <a href="#paket">Starter — Rp 99.000</a>
+        <a href="#paket">Bisnis — Rp 149.000</a>
+        <a href="#paket">Pro — Rp 219.000</a>
+      </div>
+      <div>
+        <h4>Kontak</h4>
+        <a href="#" class="js-wa" data-msg="Halo WebKita, saya ingin bertanya.">WhatsApp: <span class="js-wa-display">0838-3465-4716</span></a>
+        <a href="mailto:halo@webkita.id">halo@webkita.id</a>
+        <span class="muted">Jakarta, Indonesia</span>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year">2026</span> WebKita. Semua hak dilindungi.</span>
+      <a href="#top">Kembali ke atas ↑</a>
+    </div>
+  </div>
+</footer>
+
+<!-- MODAL PEMESANAN -->
+<div class="modal" id="order-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+  <div class="modal-backdrop" data-close></div>
+  <div class="modal-panel glass">
+    <div class="modal-glow" aria-hidden="true"></div>
+    <button type="button" class="modal-close" data-close aria-label="Tutup">
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+    </button>
+
+    <ol class="stepper" aria-label="Langkah pemesanan">
+      <li class="is-active" data-step-ind="1"><span>1</span>Data</li>
+      <li data-step-ind="2"><span>2</span>Pembayaran</li>
+      <li data-step-ind="3"><span>3</span>Selesai</li>
+    </ol>
+
+    <div class="order-summary">
+      <div>
+        <small>Paket dipilih</small>
+        <b id="sum-plan">Paket Bisnis</b>
+      </div>
+      <div class="sum-price" id="sum-price">Rp 149.000</div>
+    </div>
+
+    <!-- Langkah 1: Form -->
+    <form class="modal-step" id="step-1" novalidate>
+      <h3 id="modal-title">Isi data pemesanan</h3>
+      <p class="modal-sub">Data ini kami pakai untuk membuat website dan menghubungi kamu.</p>
+      <div class="form-grid">
+        <label class="field">
+          <span>Nama lengkap <em>*</em></span>
+          <input type="text" name="nama" autocomplete="name" placeholder="Contoh: Siti Rahmawati" required>
+          <small class="err">Nama lengkap wajib diisi.</small>
+        </label>
+        <label class="field">
+          <span>Nama usaha <em>*</em></span>
+          <input type="text" name="usaha" autocomplete="organization" placeholder="Contoh: Kopi Senja" required>
+          <small class="err">Nama usaha wajib diisi.</small>
+        </label>
+        <label class="field">
+          <span>Nomor WhatsApp <em>*</em></span>
+          <input type="tel" name="wa" inputmode="tel" autocomplete="tel" placeholder="08xxxxxxxxxx" required>
+          <small class="err">Masukkan nomor WhatsApp yang valid (10–15 digit).</small>
+        </label>
+        <label class="field">
+          <span>Jenis usaha <em>*</em></span>
+          <select name="jenis" required>
+            <option value="">Pilih jenis usaha</option>
+            <option>Kuliner / Makanan &amp; Minuman</option>
+            <option>Fashion &amp; Aksesoris</option>
+            <option>Kecantikan &amp; Kesehatan</option>
+            <option>Jasa</option>
+            <option>Kerajinan &amp; Oleh-oleh</option>
+            <option>Toko Kelontong / Retail</option>
+            <option>Lainnya</option>
+          </select>
+          <small class="err">Pilih jenis usaha.</small>
+        </label>
+        <label class="field">
+          <span>Email <i>(opsional)</i></span>
+          <input type="email" name="email" autocomplete="email" placeholder="nama@email.com">
+          <small class="err">Format email tidak valid.</small>
+        </label>
+        <label class="field">
+          <span>Kota <i>(opsional)</i></span>
+          <input type="text" name="kota" autocomplete="address-level2" placeholder="Contoh: Jakarta">
+        </label>
+        <label class="field field-full">
+          <span>Catatan / permintaan khusus <i>(opsional)</i></span>
+          <textarea name="catatan" rows="3" placeholder="Contoh: warna dominan hijau, ada menu promo, dll."></textarea>
+        </label>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block btn-lg">
+        Konfirmasi Pesanan
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </button>
+    </form>
+
+    <!-- Langkah 2: QRIS -->
+    <div class="modal-step" id="step-2" hidden>
+      <h3>Bayar dengan QRIS</h3>
+      <p class="modal-sub">Scan kode di bawah dengan aplikasi bank atau e-wallet (GoPay, OVO, DANA, ShopeePay, m-banking, dll).</p>
+      <div class="pay-amount">
+        <small>Total pembayaran</small>
+        <b id="pay-total">Rp 149.000</b>
+        <span>Kode pesanan: <code id="order-id">WK-000000</code></span>
+      </div>
+      <div class="qris-frame">
+        <img src="./assets/qris.jpg" alt="Kode QRIS pembayaran WebKita" width="700" height="700">
+      </div>
+      <ol class="pay-steps">
+        <li>Buka aplikasi pembayaran dan pilih menu Scan / QRIS.</li>
+        <li>Masukkan nominal <b class="js-total">Rp 149.000</b> sesuai paket.</li>
+        <li>Selesaikan pembayaran dan simpan bukti bayar.</li>
+      </ol>
+      <div class="pay-actions">
+        <button type="button" class="btn btn-ghost" id="btn-back">Kembali</button>
+        <a href="./assets/qris.jpg" download="QRIS-WebKita.jpg" class="btn btn-ghost">Unduh QRIS</a>
+      </div>
+      <a href="#" class="btn btn-primary btn-block btn-lg" id="btn-continue" target="_blank" rel="noopener noreferrer">
+        Saya Sudah Bayar, Lanjutkan
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+      <p class="pay-note">Kamu akan diarahkan ke WhatsApp WebKita. Lampirkan bukti bayar di chat tersebut.</p>
+    </div>
+
+    <!-- Langkah 3: Selesai -->
+    <div class="modal-step step-done" id="step-3" hidden>
+      <div class="done-ico">
+        <svg viewBox="0 0 24 24" width="34" height="34" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+      </div>
+      <h3>Terima kasih!</h3>
+      <p class="modal-sub">Pesananmu sudah kami terima. Jika WhatsApp tidak terbuka otomatis, klik tombol di bawah.</p>
+      <a href="#" class="btn btn-primary btn-block btn-lg" id="btn-wa-again" target="_blank" rel="noopener noreferrer">Buka WhatsApp</a>
+      <button type="button" class="btn btn-ghost btn-block" data-close>Tutup</button>
+    </div>
+  </div>
+</div>
+
+<script src="./app.js"></script>
+<script data-pplx-inline-edit>
+(function () {
+  if (window === window.top) return;
+
+  const allowedParentOrigins = ["https://www.perplexity.ai","https://perplexity.ai","https://testing.perplexity.ai","https://staging.perplexity.ai","https://*.preview.i.perplexity.ai","http://perplexity.localhost","http://localhost:1420","http://127.0.0.1:1420","http://localhost:3000","http://127.0.0.1:3000","http://localhost:5173","http://127.0.0.1:5173"];
+  const MAX_FONT_BYTES = 500 * 1024;
+  const MAX_TOTAL_FONT_BYTES = 2 * 1024 * 1024;
+  const DEFAULT_LINE_HEIGHT = 16;
+  let scrollForwarding = false;
+  let scrollRaf = 0;
+  let trustedTopOrigin = null;
+
+  // Allow entries like "https://*.preview.i.perplexity.ai" — the wildcard
+  // matches a single DNS label (no dots), so "https://*.foo" cannot stretch
+  // across multiple labels.
+  function matchesAllowedOrigin(origin) {
+    if (!origin) return false;
+    for (const entry of allowedParentOrigins) {
+      if (!entry.includes("*")) {
+        if (entry === origin) return true;
+        continue;
+      }
+      const pattern = new RegExp(
+        "^" +
+          entry.replace(/[.+?^${}()|[\]\\]/g, "\\$&").replace(/\*/g, "[^.]+") +
+          "$",
+      );
+      if (pattern.test(origin)) return true;
+    }
+    return false;
+  }
+
+  // Trust decision: when the sender is same-origin-visible (event.origin is a
+  // real origin like https://www.perplexity.ai) we trust event.origin directly.
+  // When event.origin is "null" (opaque broker srcdoc), we fall back to the
+  // broker's stamped `parentOrigin` to identify the top window. The fallback
+  // is claim-only — we rely on the browser's native `targetOrigin` enforcement
+  // on the response path (see postToTrustedTop) to ensure replies can't be
+  // delivered to anyone but the actual top window of that claimed origin.
+  function getTrustedParentOrigin(event) {
+    const forwardedParentOrigin =
+      typeof event.data.parentOrigin === "string" ? event.data.parentOrigin : null;
+    const parentOrigin = event.origin === "null" ? forwardedParentOrigin : event.origin;
+    return matchesAllowedOrigin(parentOrigin) ? parentOrigin : null;
+  }
+
+  // All responses go to window.top with targetOrigin = the allowlisted origin.
+  // An attacker that iframes us inside their own null-origin broker can claim
+  // any parentOrigin they like, but the browser will drop the reply whenever
+  // the real top's origin doesn't match — so the screenshot never leaves.
+  function postToTrustedTop(message) {
+    if (!trustedTopOrigin) return;
+    try {
+      window.top.postMessage(message, trustedTopOrigin);
+    } catch (_error) {}
+  }
+
+  const PICK_CAPABILITIES = ["pick"];
+  const PICK_CHAIN_LENGTH = 4;
+  const PICK_MAX_TEXT_CHARS = 120;
+  const PICK_MAX_HTML_CHARS = 300;
+
+  function truncate(value, maxChars) {
+    return value.length > maxChars ? value.slice(0, maxChars - 1) + "…" : value;
+  }
+
+  function isPickableElement(element) {
+    return (
+      element instanceof Element &&
+      element !== document.documentElement &&
+      element !== document.body
+    );
+  }
+
+  function resolvePickTarget(x, y) {
+    if (!Number.isFinite(x) || !Number.isFinite(y)) return null;
+    const element = document.elementFromPoint(x, y);
+    return isPickableElement(element) ? element.closest("svg") || element : null;
+  }
+
+  function pickLabel(element) {
+    if (element.id) return element.localName + "#" + element.id;
+    return [element.localName].concat(Array.from(element.classList).slice(0, 2)).join(".");
+  }
+
+  // Only attributes that help find the element in source. data-* values and URL
+  // query strings or fragments can carry tokens.
+  const PICK_ATTRIBUTES = new Set([
+    "id",
+    "class",
+    "name",
+    "type",
+    "role",
+    "alt",
+    "aria-label",
+    "href",
+    "src",
+  ]);
+
+  function pickAttributeValue(attribute) {
+    return attribute.name === "href" || attribute.name === "src"
+      ? attribute.value.split(/[?#]/)[0]
+      : attribute.value;
+  }
+
+  function describePickElement(element) {
+    const chain = [];
+    for (
+      let current = element;
+      isPickableElement(current) && chain.length < PICK_CHAIN_LENGTH;
+      current = current.parentElement
+    ) {
+      chain.unshift(current);
+    }
+    const attributes = Array.from(element.attributes)
+      .filter((attribute) => PICK_ATTRIBUTES.has(attribute.name))
+      .map((attribute) => ` ${attribute.name}="${pickAttributeValue(attribute).replace(/"/g, "&quot;")}"`)
+      .join("");
+    const text = (element.innerText || element.textContent || "").replace(/\s+/g, " ").trim();
+    return {
+      chain: chain.map(pickLabel),
+      html: truncate(`<${element.localName}${attributes}>`, PICK_MAX_HTML_CHARS),
+      text: text ? truncate(text, PICK_MAX_TEXT_CHARS) : undefined,
+    };
+  }
+
+  // Hover asks once per frame, and innerText on a large section forces layout,
+  // so only the rect is re-read while the pointer stays on the same element.
+  // Clicks ask for fresh details since the page may have changed the element.
+  let lastPick = null;
+
+  function describePickTarget(element, fresh) {
+    if (fresh || lastPick?.element !== element) {
+      lastPick = { element, details: describePickElement(element) };
+    }
+    const rect = element.getBoundingClientRect();
+    return {
+      rect: { x: rect.left, y: rect.top, width: rect.width, height: rect.height },
+      ...lastPick.details,
+    };
+  }
+
+  function inlineAll(original, clone) {
+    if (original.nodeType !== 1 || clone.nodeType !== 1) return;
+
+    try {
+      const computedStyle = getComputedStyle(original);
+      // cssText on a computed style is the serialized declaration in modern
+      // Chromium/Safari — a single read beats enumerating ~400 longhand
+      // properties. Firefox returns "" here, so we fall back on empty.
+      const serialized = computedStyle.cssText;
+      if (serialized) {
+        clone.style.cssText = serialized;
+      } else {
+        const parts = new Array(computedStyle.length);
+        for (let index = 0; index < computedStyle.length; index += 1) {
+          const property = computedStyle[index];
+          parts[index] = `${property}:${computedStyle.getPropertyValue(property)};`;
+        }
+        clone.style.cssText = parts.join("");
+      }
+    } catch (_error) {}
+
+    const originalChildren = original.children;
+    const clonedChildren = clone.children;
+    for (
+      let index = 0;
+      index < originalChildren.length && index < clonedChildren.length;
+      index += 1
+    ) {
+      inlineAll(originalChildren[index], clonedChildren[index]);
+    }
+  }
+
+  function extractFontUrl(srcValue) {
+    const matches = [
+      ...srcValue.matchAll(
+        /url\(["']?([^"')]+)["']?\)(?:\s*format\(["']?([^"')]+)["']?\))?/gi,
+      ),
+    ];
+    if (matches.length === 0) return null;
+    const woff2 = matches.find((m) => m[2] && m[2].toLowerCase().includes("woff2"));
+    if (woff2) return woff2[1];
+    const woff = matches.find((m) => m[2] && m[2].toLowerCase().includes("woff"));
+    if (woff) return woff[1];
+    return matches[0][1];
+  }
+
+  // Cache resolved font URL -> data URI across captures. Fonts on a page
+  // essentially never change, and a batch run emits multiple captures back to
+  // back — without this we'd refetch + re-base64 every time.
+  const fontDataUriCache = new Map();
+  const SRC_DECLARATION_RE = /src\s*:\s*[^;}]+/i;
+
+  async function fetchAsDataUri(url) {
+    if (fontDataUriCache.has(url)) return fontDataUriCache.get(url);
+    let dataUri = null;
+    try {
+      const response = await fetch(url, { mode: "cors", credentials: "omit" });
+      if (response.ok) {
+        const blob = await response.blob();
+        if (blob.size <= MAX_FONT_BYTES) {
+          dataUri = await new Promise((resolve) => {
+            const reader = new FileReader();
+            reader.onloadend = () =>
+              resolve(typeof reader.result === "string" ? reader.result : null);
+            reader.onerror = () => resolve(null);
+            reader.readAsDataURL(blob);
+          });
+        }
+      }
+    } catch (_error) {
+      dataUri = null;
+    }
+    fontDataUriCache.set(url, dataUri);
+    return dataUri;
+  }
+
+  function collectFontFaceRuleTexts() {
+    const rules = [];
+    for (const sheet of document.styleSheets) {
+      let cssRules;
+      try {
+        cssRules = sheet.cssRules;
+      } catch (_error) {
+        continue;
+      }
+      if (!cssRules) continue;
+      for (const rule of cssRules) {
+        const cssText = rule.cssText || "";
+        if (cssText.startsWith("@font-face")) rules.push(cssText);
+      }
+    }
+    return rules;
+  }
+
+  async function buildInlinedFontCss() {
+    const ruleTexts = collectFontFaceRuleTexts();
+    if (ruleTexts.length === 0) return null;
+
+    const resolved = ruleTexts.map((cssText) => {
+      if (!SRC_DECLARATION_RE.test(cssText)) return null;
+      const srcMatch = cssText.match(/src\s*:\s*([^;}]+)[;}]/i);
+      if (!srcMatch) return null;
+      const url = extractFontUrl(srcMatch[1]);
+      if (!url) return null;
+      try {
+        return { cssText, url: new URL(url, document.baseURI).href };
+      } catch (_error) {
+        return null;
+      }
+    });
+
+    const dataUris = await Promise.all(
+      resolved.map((entry) => (entry ? fetchAsDataUri(entry.url) : Promise.resolve(null))),
+    );
+
+    const inlined = [];
+    let totalBytes = 0;
+    for (let index = 0; index < resolved.length; index += 1) {
+      const entry = resolved[index];
+      const dataUri = dataUris[index];
+      if (!entry || !dataUri) continue;
+      const approxBytes = dataUri.length * 0.75;
+      if (totalBytes + approxBytes > MAX_TOTAL_FONT_BYTES) break;
+      totalBytes += approxBytes;
+      inlined.push(entry.cssText.replace(SRC_DECLARATION_RE, `src: url("${dataUri}")`));
+    }
+    return inlined.length > 0 ? inlined.join("\n") : null;
+  }
+
+  function stripExternal(clone) {
+    const images = clone.querySelectorAll("img");
+    for (let index = 0; index < images.length; index += 1) {
+      const src = images[index].getAttribute("src");
+      if (src && !src.startsWith("data:")) images[index].removeAttribute("src");
+    }
+
+    const elements = clone.querySelectorAll("*");
+    for (let index = 0; index < elements.length; index += 1) {
+      const style = elements[index].style.cssText;
+      if (style && style.includes("url(")) {
+        elements[index].style.cssText = style.replace(
+          /url\(["']?(?!data:)[^)"']*["']?\)/gi,
+          "none",
+        );
+      }
+    }
+  }
+
+  function emitScroll() {
+    scrollRaf = 0;
+    if (!scrollForwarding) return;
+    postToTrustedTop({
+      type: "INLINE_EDIT_SCROLL",
+      scrollX: window.scrollX,
+      scrollY: window.scrollY,
+      capabilities: PICK_CAPABILITIES,
+    });
+  }
+
+  window.addEventListener(
+    "scroll",
+    function () {
+      if (!scrollForwarding || scrollRaf) return;
+      scrollRaf = requestAnimationFrame(emitScroll);
+    },
+    { passive: true, capture: true },
+  );
+
+  async function handleCaptureRequest(event) {
+    const requestId = event.data.requestId;
+    const scrollX = window.scrollX;
+    const scrollY = window.scrollY;
+    const width = window.innerWidth;
+    const height = window.innerHeight;
+
+    function postResult(dataUrl) {
+      postToTrustedTop({
+        type: "INLINE_EDIT_SCREENSHOT_RESULT",
+        requestId,
+        dataUrl,
+        scrollX,
+        scrollY,
+      });
+    }
+
+    try {
+      // Wait for any pending web fonts to resolve so both inline metrics and
+      // the @font-face inlining below see the same loaded faces.
+      if (document.fonts && document.fonts.ready) {
+        try {
+          await document.fonts.ready;
+        } catch (_error) {}
+      }
+
+      const clone = document.documentElement.cloneNode(true);
+      inlineAll(document.documentElement, clone);
+
+      const removedNodes = clone.querySelectorAll("script,link[rel=\"stylesheet\"],style");
+      for (let index = 0; index < removedNodes.length; index += 1) {
+        removedNodes[index].remove();
+      }
+
+      stripExternal(clone);
+
+      // Re-embed web fonts as data-URI @font-face rules so the SVG rasterizer
+      // can resolve them — external font URLs aren't fetched during
+      // foreignObject rendering, which would otherwise force a fallback face
+      // and change text metrics.
+      const inlinedFontCss = await buildInlinedFontCss();
+      if (inlinedFontCss) {
+        const styleEl = document.createElement("style");
+        styleEl.textContent = inlinedFontCss;
+        const head = clone.querySelector("head");
+        if (head) head.appendChild(styleEl);
+        else clone.insertBefore(styleEl, clone.firstChild);
+      }
+
+      const html = new XMLSerializer().serializeToString(clone);
+      const svg =
+        `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}">` +
+        '<foreignObject width="100%" height="100%">' +
+        `<div xmlns="http://www.w3.org/1999/xhtml" style="width:${width}px;height:${height}px;overflow:hidden">` +
+        `<div style="position:relative;left:-${scrollX}px;top:-${scrollY}px">` +
+        html +
+        "</div></div></foreignObject></svg>";
+      const svgUrl = `data:image/svg+xml;charset=utf-8,${encodeURIComponent(svg)}`;
+      const image = new Image();
+      image.onload = function () {
+        const canvas = document.createElement("canvas");
+        canvas.width = width;
+        canvas.height = height;
+        canvas.getContext("2d").drawImage(image, 0, 0);
+        postResult(canvas.toDataURL("image/png"));
+      };
+      image.onerror = function () {
+        postResult(null);
+      };
+      image.src = svgUrl;
+    } catch (_error) {
+      postResult(null);
+    }
+  }
+
+  window.addEventListener("message", function (event) {
+    if (!event.data) return;
+    // Only accept messages from the direct parent frame. Blocks sibling /
+    // unrelated-window postMessage senders that could otherwise reach us.
+    if (event.source !== window.parent) return;
+
+    const trustedParentOrigin = getTrustedParentOrigin(event);
+    if (!trustedParentOrigin) return;
+    trustedTopOrigin = trustedParentOrigin;
+
+    if (event.data.type === "INLINE_EDIT_PICK") {
+      const element = resolvePickTarget(event.data.x, event.data.y);
+      postToTrustedTop({
+        type: "INLINE_EDIT_PICK_RESULT",
+        seq: event.data.seq,
+        target: element ? describePickTarget(element, event.data.fresh === true) : null,
+      });
+      return;
+    }
+
+    if (event.data.type === "INLINE_EDIT_SCROLL_START") {
+      scrollForwarding = true;
+      emitScroll();
+      return;
+    }
+
+    if (event.data.type === "INLINE_EDIT_SCROLL_STOP") {
+      scrollForwarding = false;
+      if (scrollRaf) cancelAnimationFrame(scrollRaf);
+      scrollRaf = 0;
+      return;
+    }
+
+    if (event.data.type === "INLINE_EDIT_SCROLL_BY") {
+      const { deltaX, deltaY, deltaMode } = event.data;
+      if (!scrollForwarding || !Number.isFinite(deltaX) || !Number.isFinite(deltaY)) return;
+      if (deltaMode !== 0 && deltaMode !== 1 && deltaMode !== 2) return;
+      const lineHeight =
+        parseFloat(getComputedStyle(document.documentElement).lineHeight) || DEFAULT_LINE_HEIGHT;
+      const scaleX = deltaMode === 1 ? lineHeight : deltaMode === 2 ? window.innerWidth : 1;
+      const scaleY = deltaMode === 1 ? lineHeight : deltaMode === 2 ? window.innerHeight : 1;
+      // The selection overlay receives the wheel event instead of this iframe.
+      // Instant scrolling preserves trackpad deltas even on smooth-scroll sites.
+      window.scrollBy({ left: deltaX * scaleX, top: deltaY * scaleY, behavior: "instant" });
+      emitScroll();
+      return;
+    }
+
+    if (event.data.type !== "INLINE_EDIT_CAPTURE_REQUEST") return;
+
+    handleCaptureRequest(event);
+  });
+})();
+
+
+</script></body>
+</html>
